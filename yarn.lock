@@ -3127,6 +3127,13 @@ expo-asset@~8.10.1:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
+expo-camera@~13.4.4:
+  version "13.4.4"
+  resolved "https://registry.yarnpkg.com/expo-camera/-/expo-camera-13.4.4.tgz#e01ead31a3150398d37e94c307f6937480680690"
+  integrity sha512-7k54APbpSulUDR2CrD5SrmKjCdfdg4tqKRpbBOKc2J2MIBHhunExU77435JDYSejHRY5bfRHZsEp3yKwR862uw==
+  dependencies:
+    invariant "^2.2.4"
+
 expo-constants@~14.4.2:
   version "14.4.2"
   resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-14.4.2.tgz#cac5e8b524069545739b8d8595ce96cc5be6578c"
@@ -3134,6 +3141,13 @@ expo-constants@~14.4.2:
   dependencies:
     "@expo/config" "~8.1.0"
     uuid "^3.3.2"
+
+expo-contacts@~12.2.0:
+  version "12.2.0"
+  resolved "https://registry.yarnpkg.com/expo-contacts/-/expo-contacts-12.2.0.tgz#31325aa4c3d1e2c14085e43c499a5825329e739c"
+  integrity sha512-ZVRbF3OEGQ02nwwqaBxEic761mio8+GHo8I6jy/UQ5CF5azauY+2LUA5JskmuZbBAZMqZfhkbnZ56w8RXXcE5A==
+  dependencies:
+    uuid "^3.4.0"
 
 expo-file-system@~15.4.0, expo-file-system@~15.4.5:
   version "15.4.5"
@@ -3172,6 +3186,13 @@ expo-modules-core@1.5.12:
   integrity sha512-mY4wTDU458dhwk7IVxLNkePlYXjs9BTgk4NQHBUXf0LapXsvr+i711qPZaFNO4egf5qq6fQV+Yfd/KUguHstnQ==
   dependencies:
     compare-versions "^3.4.0"
+    invariant "^2.2.4"
+
+expo-sensors@~12.3.0:
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/expo-sensors/-/expo-sensors-12.3.0.tgz#a3f0f86f54cf5d06a4e643d6678bc15ff4a446c9"
+  integrity sha512-KYL/WsJNJGTHRzpeCblPleuqaoCCHbIEQHg3NiRVVG1ismlGnisCPI6OBWYVZhfCJ0FjGvK0Z311Ac/KY8JSpA==
+  dependencies:
     invariant "^2.2.4"
 
 expo-status-bar@~1.6.0:
@@ -5355,10 +5376,10 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native@0.72.6:
-  version "0.72.6"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.72.6.tgz#9f8d090694907e2f83af22e115cc0e4a3d5fa626"
-  integrity sha512-RafPY2gM7mcrFySS8TL8x+TIO3q7oAlHpzEmC7Im6pmXni6n1AuufGaVh0Narbr1daxstw7yW7T9BKW5dpVc2A==
+react-native@0.72.5:
+  version "0.72.5"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.72.5.tgz#2c343fa6f3ead362cf07376634a33a4078864357"
+  integrity sha512-oIewslu5DBwOmo7x5rdzZlZXCqDIna0R4dUwVpfmVteORYLr4yaZo5wQnMeR+H7x54GaMhmgeqp0ZpULtulJFg==
   dependencies:
     "@jest/create-cache-key-function" "^29.2.1"
     "@react-native-community/cli" "11.3.7"
